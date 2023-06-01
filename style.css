@@ -168,7 +168,7 @@ body {
   align-items: center;
 }
 .Artistas-container .card {
-  width: 300px;
+  width: 260px;
   margin: 20px;
   border-radius: 6px;
   background-color: #fff;
@@ -708,6 +708,7 @@ footer a {
   }
   .about img {
     width: 100%;
+    width: 500px;
   }
   .derechos-reservados h2 {
     font-size: 10px;
@@ -748,5 +749,21 @@ footer a {
   opacity: 1;
   transform: translateX(0);
 }
+
+
+
+@media screen and (max-width: 760px) {
+
+
+.about h2 {
+  font-size: 30px;
+}
+
+.Artistas-container .card {
+  width: 258px;
+  height: auto;
+}
+
+  }
 
 /*# sourceMappingURL=style.css.map */
