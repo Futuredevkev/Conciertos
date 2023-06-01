@@ -17,66 +17,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Navbar hamburguesa */
-.icono-menu {
-  display: none;
-}
-
-.icono-menu {
-  margin: 40px 50px;
-  position: relative;
-  z-index: 10000;
-}
-
-.icono-menu i {
-  vertical-align: top;
-  font-size: 50px;
-  cursor: pointer;
-}
-
-.cont-menu {
-  background-color: rgb(42, 42, 42);
-  box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.5s ease;
-  z-index: 1000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cont-menu a {
-  color: white;
-  display: block;
-  font-size: 25px;
-  text-decoration: none;
-  padding: 10px 50px;
-  cursor: pointer;
-}
-
-.cont-menu h1 {
-  font-size: 50px;
-  text-align: center;
-  padding: 50px;
-}
-
-.cont-menu a:hover {
-  background-color: #fff;
-  color: rgb(42, 42, 42);
-}
-
-/* Navbar Javascript */
-.active {
-  transform: translateX(10000px);
-}
-
-.opacity {
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: all 0.5s ease;
-}
 
 .Principal-nav {
   display: flex;
@@ -272,7 +212,7 @@ body {
 }
 .container .right {
   padding: 25px 40px;
-  height: 452px;
+  
 }
 .container h2 {
   position: relative;
@@ -356,7 +296,7 @@ footer h2 {
 }
 footer .redes {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 footer a {
   text-decoration: none;
@@ -708,7 +648,7 @@ footer a {
   }
   .about img {
     width: 100%;
-    width: 500px;
+    
   }
   .derechos-reservados h2 {
     font-size: 10px;
