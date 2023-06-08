@@ -682,6 +682,9 @@ footer a {
   }
 }
 @media screen and (max-width: 1144px) {
+  .about .texto-about {
+    width: 100%;
+  }
   .icono-menu {
     display: block;
   }

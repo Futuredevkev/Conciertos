@@ -766,6 +766,11 @@ $rojo: rgb(148, 41, 41);
 
 
 @media screen and (max-width: 1144px) {
+
+  .about .texto-about {
+    width: 100%;
+  }
+
   .icono-menu {
     display: block;
   }
